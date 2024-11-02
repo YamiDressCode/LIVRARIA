@@ -1,0 +1,143 @@
+footer {
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #ffffff; /* Âncoras brancas */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.containerz{
+    width: 100%;
+    height:800px;
+    position: relative;
+    background-color: black;
+    opacity: 80%;
+    
+}
+.contato{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.contato h1{
+    position: absolute;
+    top: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    right: 75%;
+}
+.contato a{
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+
+}
+.contato ul{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+.contato li{
+    margin: 5px;
+}
+.contato input{
+    position: absolute;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    right: 70%;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.contato button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    position: absolute;
+    left: 13.5%;
+    top: 70%;
+
+}
+.contato2{
+    float: right;
+    padding-top: 2%;
+    margin: 60px;
+    color: rgb(255, 255, 255);;
+}
+.contato2 h2{
+    position: absolute;
+    top: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    left: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+.contato2 p{
+    position: absolute;
+    font-size: 25px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    top: 20%;
+}
+.contato2 button{
+    width: 400px;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid brown;
+}
+.contato2 a{
+    text-decoration: none;
+    color: brown;
+}
+.contato2 a:hover{
+    color: #000000;
+}
+.divisao{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(160, 1, 1);
+    border: 1px solid rgb(160, 1, 1);
+    opacity: 80%;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 40%;
+    top: 1px;
+}
+.butaotr{
+    margin-top: 150px;
+}
+

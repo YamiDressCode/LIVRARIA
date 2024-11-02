@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+
+}
+.divisao{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(160, 1, 1);
+    border: 1px solid rgb(160, 1, 1);
+    opacity: 80%;
+}
+.section video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container2{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to right,rgb(160, 1, 1), rgb(255, 255, 255) );
+}
+.conteudo{
+    width: 30%;
+    height: 100%;
+    top: 25%;
+    position: absolute;
+    right: 10%;
+    letter-spacing: 3px;
+    
+}
+.container2 h1{
+    color: rgb(160, 1, 1);
+    padding-left: 25%;
+    padding-top: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.container2 p{
+    color: rgb(160, 1, 1);
+    padding-left: 25%;
+    padding-top: 5%;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.container2 ul{
+    padding-top: 5%;
+    padding-left: 24%;
+    padding-bottom: 100%;
+    display: flex;
+    list-style: none;
+
+}.container2 li{
+    margin: 5px;
+
+}
+.container2 button{
+    background-color: rgb(160, 1, 1);
+    border-radius: 10px;
+    border: 1px solid rgb(160, 1, 1);
+    width: 100px;
+    height: 50px;
+}
+.container2 button:hover{
+    background-color: rgb(160, 1, 1);
+    border-radius: 10px;
+    border: 1px solid rgb(160, 1, 1);
+    width: 250px;
+    height: 50px;
+}
+.container2 a{
+    color: aliceblue;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    height:800px;
+    position: relative;
+    background-color: rgb(160, 1, 1);
+    opacity: 80%;
+}
+.text1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(to right, black, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    opacity: 75%;
+}
+.text1 button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: brown;
+    border: 1px solid brown;
+    opacity: 70%;
+}
+.text1 button:hover{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: brown;
+    border: 1px solid brown;
+}
+#btao{
+    background-color: burlywood;
+    border: 1px solid burlywood;
+}
+#btao2{
+    background-color:cadetblue;
+    border: 1px solid cadetblue;
+}
+.text1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+}
+.text1 a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.background-section video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    opacity: 80%;
+}
+.container{
+    width: 100%;
+}
+.container img{
+    height: 400px;
+    width: 100%;
+    border-radius: 50px;
+    opacity: 80%;
+}
+.text2{
+    width: 100%;
+    height: 100%;
+    letter-spacing: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    opacity: 75%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+
+.text2 button{
+    width: 200px;
+    height: 100px;
+    background-color: burlywood;
+    border-radius: 30px;
+    border:burlywood ;
+    
+}
+.text2 a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(160, 1, 1);
+
+}
+.text2 button:hover{
+    width: 220px;
+    height: 110px;
+    background-color: burlywood;
+    border-radius: 30px;
+    border:burlywood ;
+}
+.complemento video{
+    position: absolute;
+    left: 10px;
+    bottom: 20%;
+    min-width: 30%;
+    max-width: 60%;
+    height: auto;
+    border-radius: 30px;
+}
+footer {
+    background-color: #000000; /* Fundo preto */
+    color: #ffffff; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #ffffff; /* Âncoras brancas */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
